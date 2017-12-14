@@ -242,6 +242,7 @@ def draw_grid(size, images):
             else:
                 screen.blit(d_image, (x*m, y*n))
 
+#Start of program
 pygame.init()
 screen = pygame.display.set_mode((640, 480))
 
