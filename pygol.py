@@ -36,7 +36,6 @@ def update_g_list(g_list, position, value):
 def check_neighbours_state(object_grid, object_position):
     """Counts the number of alive or dead neighbours for a cell
     NOTE: This program only checks neighbour states for (A x B) size grids"""
-    #Requires tests for each corner
     alive_neighbours = 0
     dead_neighbours = 0
     x = object_position[0]
